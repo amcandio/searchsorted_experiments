@@ -5,10 +5,10 @@ Experiments in making batched binary search (`np.searchsorted`) faster. This is 
 
 ## Good reads
 
-- [Binary search, but faster (CuriousCoding)](https://curiouscoding.nl/posts/binsearch/): step-by-step optimization of binary search, including branchless search, prefetching, and memory layouts.
-- [Binary Search chapter (Algorithmica)](https://en.algorithmica.org/hpc/data-structures/binary-search/): branchless search, the Eytzinger layout, prefetching and other cache-friendly layouts.
-- [You can beat the binary search (Daniel Lemire)](https://lemire.me/blog/2026/04/27/you-can-beat-the-binary-search/): ways to beat plain binary search in practice.
-- [Performance comparison: linear search vs binary search (Dirty Hands Coding)](https://dirtyhandscoding.github.io/posts/performance-comparison-linear-search-vs-binary-search.html): where linear scans win over binary search, which motivates the small-range fallback below.
+- [Binary search, but faster (CuriousCoding)](https://curiouscoding.nl/posts/binsearch/)
+- [Binary Search chapter (Algorithmica)](https://en.algorithmica.org/hpc/data-structures/binary-search/)
+- [You can beat the binary search (Daniel Lemire)](https://lemire.me/blog/2026/04/27/you-can-beat-the-binary-search/)
+- [Performance comparison: linear search vs binary search (Dirty Hands Coding)](https://dirtyhandscoding.github.io/posts/performance-comparison-linear-search-vs-binary-search.html)
 
 ## Ideas to try
 
